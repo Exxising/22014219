@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void OnClickSignUp(View view)
     {
-        tViewId.setText("아이디: "+eInputId.getText());
+        tViewId.setText("아이디: " + eInputId.getText());
         tViewPassword.setText("패스워드: " + eInputPassword.getText());
         tViewPhone.setText("전화 번호: " + eInputPhone.getText());
     }
